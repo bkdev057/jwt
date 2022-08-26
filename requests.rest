@@ -1,0 +1,11 @@
+GET http://127.0.0.1:4500/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.cmVxLmJvZHkudXNlck5hbWU.WUVgl2u0kj-lYivlywBo-dmKxV59jqPVJWHVHV-5YkI
+
+###
+
+POST http://127.0.0.1:4500/login
+Content-Type: application/json
+
+{
+    "userName": "bharat"
+}
